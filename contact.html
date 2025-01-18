@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Jack's portfolio site - Contact" name="description">
+    <meta content="jack" name="author">
+    <title>⌈ J a c k W ⌋</title>
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="⌈ J a c k W ⌋" name="application-name">
+    <meta content="⌈ J a c k W ⌋" name="apple-mobile-web-app-title">
+    <meta content="#000000" name="theme-color">
+    <meta content="#000000" name="msapplication-navbutton-color">
+    <meta content="/index.html" name="msapplication-starturl">
+    <link href="/assets/icon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/icon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/icon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <meta content="#4C04BEFF" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link crossorigin="use-credentials" href="webmanifest.json" rel="manifest"/>
+</head>
+
+<body>
+<div id="navbar">
+    <h1 class="titleAnim">> Communication</h1>
+    <br>> Can You Reach Me?
+    <br>
+    <br>
+    <div class="navline">
+        <a href="/intro.html">[home]</a>
+        <a href="/about.html">[about]</a>
+        <a href="/portfolio.html">[portfolio]</a>
+        <a href="/certs.html">[certs]</a>
+    </div>
+    <br>
+</div>
+
+<div class="article">
+    <h1 class="titleAnim">> Where Do You Go?</h1>
+    <br>
+    <p>Want to talk to me about something? Get in touch!</p>
+    <p>Please use one of the following channels if you'd like to reach out.</p>
+    <h3>General Chat</h3>
+    <p>Want a casual chat about something? Twitter is the place to go for that :)</p>
+    <p>
+        <a href="https://twitter.com/nihilist_01">[Twitter]</a>
+    </p>
+    <h3>Professional</h3>
+    <p>Want to talk to me in a professional capacity? Please reach out via LinkedIn or Email.</p>
+    <p>
+        <a href="mailto:info@nihilist.uk">[Email]</a>
+        <a href="https://www.linkedin.com/in/jack-d-walker/">[LinkedIn]</a>
+    </p>
+    <br>
+    <br>
+</div>
+
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+            .register("sw.js")
+            .then(function () {
+                console.log("Service Worker registered");
+            })
+            .catch(error => console.log(`Error - ${error}`));
+    } else {
+        console.log("Service Worker failed to register");
+    }
+</script>
+</body>
+
+<footer>
+    <div class="article">
+        <h1>> Get In Touch</h1>
+        <br>
+        <div class="navline">
+            <a href="mailto:info@nihilist.uk">[Email]</a>
+            <a href="https://github.com/JackW2000">[GitHub]</a>
+            <a href="https://www.linkedin.com/in/jack-d-walker/">[LinkedIn]</a>
+            <a href="https://twitter.com/nihilist_01">[Twitter]</a>
+        </div>
+        <p class="copy"> Copyright &copy; 2024 </p>
+        <br>
+    </div>
+</footer>
+</html>

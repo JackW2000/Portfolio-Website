@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Jack's portfolio site - Landing" name="description">
+    <meta content="jack" name="author">
+    <title>⌈ J a c k W ⌋</title>
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="⌈ J a c k W ⌋" name="application-name">
+    <meta content="⌈ J a c k W ⌋" name="apple-mobile-web-app-title">
+    <meta content="#000000" name="theme-color">
+    <meta content="#000000" name="msapplication-navbutton-color">
+    <meta content="/index.html" name="msapplication-starturl">
+    <link href="/assets/icon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/icon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/icon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <meta content="#4C04BEFF" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link crossorigin="use-credentials" href="webmanifest.json" rel="manifest"/>
+</head>
+
+<body>
+<div id="navbar">
+    <h1 class="titleAnim">> Hello World</h1>
+    <br>> You made it this far
+    <br>> Why not keep going?
+    <br>
+    <br>
+    <a href="intro.html">
+        <img alt="Gif of telephone pole - click to enter site" id="introImg" src="assets/lain_telephone_pole.webp">
+        <br>
+        [Enter]
+    </a>
+    <br>
+    <br>
+    <br>
+</div>
+
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+            .register("sw.js")
+            .then(function () {
+                console.log("Service Worker registered");
+            })
+            .catch(error => console.log(`Error - ${error}`));
+    } else {
+        console.log("Service Worker failed to register");
+    }
+</script>
+</body>
+</html>

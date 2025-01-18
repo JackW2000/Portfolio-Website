@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Jack's portfolio site - About" name="description">
+    <meta content="jack" name="author">
+    <title>⌈ J a c k W ⌋</title>
+    <meta content="yes" name="mobile-web-app-capable">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="⌈ J a c k W ⌋" name="application-name">
+    <meta content="⌈ J a c k W ⌋" name="apple-mobile-web-app-title">
+    <meta content="#000000" name="theme-color">
+    <meta content="#000000" name="msapplication-navbutton-color">
+    <meta content="/index.html" name="msapplication-starturl">
+    <link href="/assets/icon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="/assets/icon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/icon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <meta content="#4C04BEFF" name="msapplication-TileColor">
+    <meta content="#ffffff" name="theme-color">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link crossorigin="use-credentials" href="webmanifest.json" rel="manifest"/>
+</head>
+
+<body>
+<div id="navbar">
+    <h1 class="titleAnim">> About</h1>
+    <br>> What would you like to know?
+    <br>
+    <br>
+    <div class="navline">
+        <a href="/intro.html">[home]</a>
+        <a href="/portfolio.html">[portfolio]</a>
+        <a href="/certs.html">[certs]</a>
+        <a href="/contact.html">[contact]</a>
+    </div>
+    <br>
+</div>
+
+<div class="article">
+    <h1 class="titleAnim">> Who Am I?</h1>
+    <h5 class="author">jack</h5>
+    <h5 class="date">01/05/2023</h5>
+    <br>
+    <br>
+    <h3>Technical Profile</h3>
+    <p>I'm a software engineer currently working for Capgemini on the HMRC account.</p>
+    <p>Graduated from Staffordshire University in 2021 with a First Class Honours Bachelors degree in Computer Science.
+        You can view example work from my time at uni at the link below</p>
+    <p><a href="/portfolio.html">[portfolio]</a></p>
+    <p>My day-to-day role sees me working with the following technologies:</p>
+    <ul>
+        <li>Java</li>
+        <li>Spring Batch</li>
+        <li>Spring Boot</li>
+        <li>Kubernetes</li>
+        <li>Helm</li>
+        <li>SQL</li>
+        <li>PL/SQL</li>
+        <li>GitLab</li>
+        <li>BitBucket/Bamboo</li>
+    </ul>
+    <p>I am very interested in AI and Machine Learning, embedded systems, and Android app development - a bit of an odd
+        mix I know, but I found that at uni I really enjoyed all of these areas for completely different reasons</p>
+    <p>AI/ML in particular I am very interested in. I don't work with it day-to-day, but do work on some personal
+        projects that involve it heavily.</p>
+    <p>Certified and working towards gaining more certifications - view details at the below link</p>
+    <p><a href="/certs.html">[certs]</a></p>
+    <br>
+    <br>
+</div>
+
+<script>
+    if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+            .register("sw.js")
+            .then(function () {
+                console.log("Service Worker registered");
+            })
+            .catch(error => console.log(`Error - ${error}`));
+    } else {
+        console.log("Service Worker failed to register");
+    }
+</script>
+</body>
+
+<footer>
+    <div class="article">
+        <h1>Get In Touch</h1>
+        <br>
+        <div class="navline">
+            <a href="mailto:info@nihilist.uk">[Email]</a>
+            <a href="https://github.com/JackW2000">[GitHub]</a>
+            <a href="https://www.linkedin.com/in/jack-d-walker/">[LinkedIn]</a>
+            <a href="https://twitter.com/nihilist_01">[Twitter]</a>
+        </div>
+        <p class="copy"> Copyright &copy; 2024 </p>
+        <br>
+    </div>
+</footer>
+</html>
